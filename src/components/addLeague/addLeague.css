@@ -1,0 +1,41 @@
+.formLeague{
+    width: 96%;
+    margin: 24px auto;
+    input[type="file"]{
+        color: var(--color-2);
+        margin: 12px 24px;
+    }
+    form{
+        width: 50%;
+        margin: 24px auto;
+        input{
+            height: 24px;
+            width: 100%;
+            margin: 2px 0;
+            transform: skew(-10deg);
+        }
+    }
+    .tableAdd{
+        width: 90%;
+        border: 2px solid var(--color-white);
+        h2{
+            margin: 24px;
+            text-align: center;
+            color: var(--color-2);
+        }
+        .position{
+            display: flex;
+            justify-content: space-between;
+            margin: 4px 12px;
+            div{
+                color: var(--color-white);
+            }
+            .data{
+                width: 7%;
+            }
+            .team{
+                width: 51%;
+            }
+        }
+    }
+}
